@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Form Element Challenge</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <header><h1>HTML Form Element Challenge</h1></header>
+        <h3>Adding a form to a page using HTML, containing the following:</h3>
+        <ul>
+            <li>An input field that takes a first name</li>
+            <li>An input field that takes a last name</li>
+            <li>An input field that asks for gender using radio buttons</li>
+            <li>An input field that asks to select interests using checkboxes</li>
+            <li>A submit button</li>
+        </ul>
+        
+        <form>
+            <div id="first-name-form">
+                <label for="first-name">First name:</label>
+                <input type="text" id="first-name" name="first-name">
+            </div>
+            <div id="last-name-form">
+                <label for="last-name">Last name:</label>
+                <input type="text" id="last-name" name="last-name">
+            </div>
+            <div id="gender-radio">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender">Male</input>
+                <input type="radio" id="gender" name="gender">Female</input>
+                <input type="radio" id="gender" name="gender">Other</input>
+                <input type="radio" id="gender" name="gender">Prefer not to say</input>
+            </div>
+            <div id="interests">
+                <label for="interests-check">Which of these interest you?</label>
+                <input type="checkbox" id="interests-check" name="interests-check">Music</input>
+                <input type="checkbox" id="interests-check" name="interests-check">Sports</input>
+                <input type="checkbox" id="interests-check" name="interests-check">Film</input>
+                <input type="checkbox" id="interests-check" name="interests-check">News</input>
+                <input type="checkbox" id="interests-check" name="interests-check">Games</input>
+                <input type="checkbox" id="interests-check" name="interests-check">Fashion</input> 
+            </div>
+            <br>
+            <div id="submit-btn">
+                <input type="submit" id="submit" name="submit" value="Submit me!"></input>
+            </div>
+        </form>
+
+
+    <script src="script.js"></script>
+    </body>
+</html>
