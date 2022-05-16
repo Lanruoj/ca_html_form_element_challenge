@@ -6,13 +6,13 @@ In this activity you will need to create a HTML document and add a form element 
 
 The form should contain:
 
-An input field that takes first name
+* An input field that takes first name
 
-An input field that takes a last name
+* An input field that takes a last name
 
-At least 2 additional form input fields that use different input types
+* At least 2 additional form input fields that use different input types
 
-A submit button
+* A submit button
 
 After completing this activity:
 
